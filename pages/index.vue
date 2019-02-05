@@ -1,31 +1,46 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        timoehler-web
-      </h1>
-      <h2 class="subtitle">
-        Hi, I&#39;m Tim
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </section>
+  <div id="app">
+    <section class="container">
+      <no-ssr>
+        <ScaleRotateMenu>
+          <a id="home" href="#">
+            <span>Home</span>
+          </a>
+          <a id="projects" href="#">
+            <span>Projects</span>
+          </a>
+          <a id="about" href="#">
+            <span>About</span>
+          </a>
+        </ScaleRotateMenu>
+      </no-ssr>
+      <main id="page-wrap">
+        <logo />
+        <h1 class="title">
+          Hi, I&#39;m Tim
+        </h1>
+        <h2 class="subtitle">
+          Here's a sentence about me.
+        </h2>
+        <div class="links">
+          <a
+            href="https://nuxtjs.org/"
+            target="_blank"
+            class="button--green"
+          >
+            Documentation
+          </a>
+          <a
+            href="https://github.com/nuxt/nuxt.js"
+            target="_blank"
+            class="button--grey"
+          >
+            GitHub
+          </a>
+        </div>
+      </main>
+    </section>
+  </div>
 </template>
 
 <script>
