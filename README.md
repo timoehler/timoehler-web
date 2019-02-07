@@ -1,6 +1,6 @@
 # timoehler-web
 
-> Hi, I&#39;m Tim
+> Hi, I&#39;m Tim.  This is my personal website.
 
 ## Contact form
 Contact form is managed through [form.io](https://www.form.io/)
