@@ -2,6 +2,9 @@
 
 > Hi, I&#39;m Tim
 
+## Contact form
+Contact form is managed through [form.io](https://www.form.io/)
+
 ## Build Setup
 
 ``` bash

@@ -16,6 +16,9 @@
       </no-ssr>
       <main id="page-wrap">
         <logo />
+        <!-- <no-ssr>
+          <contactForm />
+        </no-ssr> -->
         <h1 class="title">
           Hi, I&#39;m Tim
         </h1>
@@ -37,6 +40,12 @@
           >
             GitHub
           </a>
+        </div>
+
+        <div class="contact__container">
+          <no-ssr>
+            <ContactForm />
+          </no-ssr>
         </div>
       </main>
     </section>
@@ -83,5 +92,10 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.contact__container {
+  text-align: left;
+  margin-top: 50px;
 }
 </style>

@@ -43,7 +43,10 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
 
-  plugins: [{ src: '~plugins//slide-menu', ssr: false }],
+  plugins: [
+    { src: '~plugins//slide-menu', ssr: false },
+    { src: '~plugins//contact-form', ssr: false }
+  ],
 
   /*
   ** Nuxt.js modules
