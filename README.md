@@ -30,6 +30,7 @@ $ npm run generate
 $ npm run deploy
 
 Navigate to https://cocky-hopper-e8086a.netlify.com
+Configured here: https://app.netlify.com/sites/cocky-hopper-e8086a/overview
 
 ```
 
