@@ -29,6 +29,8 @@ $ npm run generate
 $ npm run generate
 $ npm run deploy
 
+Navigate to https://cocky-hopper-e8086a.netlify.com
+
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
