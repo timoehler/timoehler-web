@@ -8,6 +8,7 @@
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #fff;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -24,32 +25,34 @@ html {
   margin: 0;
 }
 
-.button--green {
+.btn-primary {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
+  border: 1px solid #dc4933;
+  background-color: #dc4933;
+  color: #fff;
   text-decoration: none;
   padding: 10px 30px;
 }
 
-.button--green:hover {
+.btn-primary:hover {
   color: #fff;
-  background-color: #3b8070;
+  background-color: #c52913;
 }
 
-.button--grey {
+.btn-secondary {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
+  border: 1px solid #0c7c59;
+  background-color: transparent;
+  color: #0c7c59;
   text-decoration: none;
   padding: 10px 30px;
-  margin-left: 15px;
 }
 
-.button--grey:hover {
+.btn-secondary:hover {
   color: #fff;
-  background-color: #35495e;
+  background-color: #0c7c59;
+  text-decoration: underline;
 }
 </style>
