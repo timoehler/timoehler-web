@@ -151,7 +151,7 @@ export default {
 }
 
 .bm-burger-bars {
-  background-color: #eee;
+  background-color: #eee !important;
 }
 
 .bm-menu {
