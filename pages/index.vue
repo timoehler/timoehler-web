@@ -19,7 +19,7 @@
       <div class="above-fold-container">
         <section class="container flex">
           <img class="hero-image" src="../assets/myAvatar.png">
-          <div class="header">
+          <div class="welcome-header">
             <div class="title-container">
               <h1 class="title">
                 Hi, I&#39;m Tim.
@@ -87,23 +87,24 @@ export default {
 <style>
 .container {
   margin: 0 auto;
-  min-height: 80vh;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.header {
+.welcome-header {
   min-width: 300px;
   max-width: 500px;
+  margin: 40px 0 50px;
 }
 
 .footer {
-  margin-top: 100px;
+  margin-top: 275px;
 }
 
 .hero-image {
   min-width: 300px;
+  object-fit: contain;
 }
 
 .flex {
@@ -130,11 +131,12 @@ export default {
   font-size: 100px;
   color: #eee;
   letter-spacing: 1px;
+  font-size: 4rem;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 1.8rem;
   color: #eee;
   word-spacing: 5px;
   margin: 20px 0 0 0;
@@ -146,7 +148,6 @@ export default {
 
 .contact__container {
   text-align: left;
-  margin-top: 50px;
 }
 
 .bm-burger-bars {
