@@ -22,7 +22,7 @@
           <div class="header">
             <div class="title-container">
               <h1 class="title">
-                Hi, I&#39;m Tim
+                Hi, I&#39;m Tim.
               </h1>
             </div>
             <h2 class="subtitle">
@@ -120,18 +120,15 @@ export default {
 }
 
 .title-container {
-  background: #eee;
-  border-right: solid 6px #58a4b0;
+  background: transparent;
   border-bottom: solid 4px #58a4b0;
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #222;
+  color: #eee;
   letter-spacing: 1px;
 }
 
