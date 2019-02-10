@@ -9,7 +9,7 @@
           <a id="projects" href="https://github.com/timoehler">
             <span>GitHub</span>
           </a>
-          <a id="about" href="https://www.linkedin.com/in/tim-oehler/">
+          <a id="about" href="https://www.linkedin.com/in/tim-oehler">
             <span>LinkedIn</span>
           </a>
         </ScaleRotateMenu>
@@ -43,7 +43,7 @@
             GitHub
           </a>
           <a
-            href="https://nuxtjs.org/"
+            href="https://www.linkedin.com/in/tim-oehler"
             target="_blank"
             class="btn btn-secondary btn-md cta-link" 
           >
