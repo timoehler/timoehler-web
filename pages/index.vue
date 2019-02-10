@@ -6,11 +6,11 @@
           <a id="home" href="#">
             <span>Home</span>
           </a>
-          <a id="projects" href="#">
-            <span>Projects</span>
+          <a id="projects" href="https://github.com/timoehler">
+            <span>GitHub</span>
           </a>
-          <a id="about" href="#">
-            <span>About</span>
+          <a id="about" href="https://www.linkedin.com/in/tim-oehler/">
+            <span>LinkedIn</span>
           </a>
         </ScaleRotateMenu>
       </div>
@@ -62,6 +62,11 @@
             <ContactForm />
           </no-ssr>
         </div>
+        <div class="footer">
+          <p class="copywrite">
+            © {{ currentYear }} Tim Oehler
+          </p>
+        </div>
       </section>
     </main>
   </div>
@@ -69,7 +74,13 @@
 
 <script>
 export default {
-  components: {}
+  components: {},
+
+  data: function() {
+    return {
+      currentYear: new Date().getFullYear()
+    }
+  }
 }
 </script>
 
@@ -85,6 +96,10 @@ export default {
 .header {
   min-width: 300px;
   max-width: 500px;
+}
+
+.footer {
+  margin-top: 100px;
 }
 
 .hero-image {
