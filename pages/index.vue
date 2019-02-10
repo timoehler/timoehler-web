@@ -103,7 +103,6 @@ export default {
 }
 
 .hero-image {
-  min-width: 300px;
   object-fit: contain;
 }
 
@@ -113,7 +112,7 @@ export default {
   flex-direction: row;
 }
 .want-help__container {
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 .above-fold-container {
   background: #2b303a;
@@ -152,6 +151,11 @@ export default {
 
 .bm-burger-bars {
   background-color: #eee !important;
+}
+
+.bm-burger-button {
+  left: 24px !important;
+  top: 24px !important;
 }
 
 .bm-menu {
