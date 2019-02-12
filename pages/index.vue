@@ -53,7 +53,7 @@
 
         <div class="contact__container">
           <div class="want-help__container">
-            <h2>
+            <h2 class="want-help__text">
               Want help with a project?  
             </h2>
             Reach out using the form below for rate and availability.  Or just say 'Hi'.
@@ -112,9 +112,16 @@ export default {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
 .want-help__container {
   margin: 30px 0;
 }
+
+.want-help__text {
+  font-size: 1.97rem;
+  margin-bottom: 20px;
+}
+
 .above-fold-container {
   background: #2b303a;
   border-bottom: solid 6px #58a4b0;
