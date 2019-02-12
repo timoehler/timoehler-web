@@ -118,7 +118,7 @@ export default {
 }
 
 .want-help__text {
-  font-size: 1.97rem;
+  font-size: 1.9rem;
   margin-bottom: 20px;
 }
 
