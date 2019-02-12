@@ -104,6 +104,7 @@ export default {
 
 .hero-image {
   object-fit: contain;
+  width: 375px;
 }
 
 .flex {
@@ -172,7 +173,7 @@ body {
 }
 
 #page-wrap {
-  border: solid 1px #000;
+  border: solid 1px #666;
   margin: -1px;
   background: #eee;
 }
