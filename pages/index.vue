@@ -34,6 +34,41 @@
 
 
       <section class="container below-fold">
+        <div class="tech-container">
+          <div class="tech-description">
+            I work with clients to provide technical leadership with the following technologies, and more:
+          </div>
+          <div class="tech-icon-container">
+            <img
+              class="tech-icon"
+              src="../assets/react-icon.png"/>
+          </div>
+          <div class="tech-icon-container">
+            <img
+              class="tech-icon"
+              src="../assets/vue-icon.png"/>
+              </div>
+          <div class="tech-icon-container">
+            <img
+              class="tech-icon"
+              src="../assets/docker-icon.png"/>
+              </div>
+          <div class="tech-icon-container">
+            <img
+              class="tech-icon"
+              src="../assets/graphql-icon.png"/>
+              </div>
+          <div class="tech-icon-container">
+            <img
+              class="tech-icon"
+              src="../assets/webpack-icon.png"/>
+              </div>
+          <div class="tech-icon-container">
+            <img
+              class="tech-icon"
+              src="../assets/node-icon.png"/>
+              </div>
+        </div>
         <div class="links">
           <a
             href="https://github.com/timoehler"
@@ -85,6 +120,14 @@ export default {
 </script>
 
 <style>
+.tech-icon-container {
+  display: inline-flex;
+}
+.tech-icon {
+  height: 40px;
+  margin: 20px;
+}
+
 .container {
   margin: 0 auto;
   justify-content: center;
@@ -151,6 +194,15 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.tech-container {
+  padding-top: 45px;
+}
+
+.tech-description {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .contact__container {
