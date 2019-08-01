@@ -36,7 +36,7 @@
       <section class="container below-fold">
         <div class="tech-container">
           <div class="tech-description">
-            I work with clients to provide technical leadership with the following technologies, and more:
+            I provide technical leadership with the following technologies, and more:
           </div>
           <div class="tech-icon-container">
             <img
