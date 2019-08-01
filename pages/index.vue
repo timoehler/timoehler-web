@@ -18,7 +18,7 @@
     <main id="page-wrap">
       <div class="above-fold-container">
         <section class="container flex">
-          <img class="hero-image" src="../assets/myAvatar.png">
+          <img class="hero-image" src="../assets/myHeadshot.png">
           <div class="welcome-header">
             <div class="title-container">
               <h1 class="title">
@@ -124,19 +124,19 @@ export default {
 
 .above-fold-container {
   background: #2b303a;
-  border-bottom: solid 6px #58a4b0;
+  border-bottom: solid 6px #4593cd;
 }
 
 .title-container {
   background: transparent;
-  border-bottom: solid 4px #58a4b0;
+  border-bottom: solid 4px #4593cd;
 }
 
 .title {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #eee;
+  color: #fff;
   letter-spacing: 1px;
   font-size: 4rem;
 }
@@ -144,7 +144,7 @@ export default {
 .subtitle {
   font-weight: 300;
   font-size: 1.8rem;
-  color: #eee;
+  color: #fff;
   word-spacing: 5px;
   margin: 20px 0 0 0;
 }
