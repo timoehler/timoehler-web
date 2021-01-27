@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <no-ssr>
+    <!-- <no-ssr>
       <div class="fade-in">
         <ScaleRotateMenu>
           <a id="home" href="#">
@@ -14,11 +14,11 @@
           </a>
         </ScaleRotateMenu>
       </div>
-    </no-ssr>
+    </no-ssr> -->
     <main id="page-wrap">
       <div class="above-fold-container">
         <section class="container flex">
-          <img class="hero-image" src="../assets/myHeadshot.png">
+          <img class="hero-image" src="../assets/me-tall.png">
           <div class="welcome-header">
             <div class="title-container">
               <h1 class="title">
@@ -36,9 +36,9 @@
       <section class="container below-fold">
         <div class="tech-container">
           <div class="tech-description">
-            I provide technical leadership with the following technologies, and more:
+            I provide technical leadership to businesses by building software that is maintainable, reliable and profitable. To see what I've been up to lately, check me out on GitHub or LinkedIn:
           </div>
-          <div class="tech-icon-container">
+          <!-- <div class="tech-icon-container">
             <img
               class="tech-icon"
               src="../assets/react-icon.png"/>
@@ -67,8 +67,8 @@
             <img
               class="tech-icon"
               src="../assets/node-icon.png"/>
-              </div>
-        </div>
+              </div>-->
+        </div> 
         <div class="links">
           <a
             href="https://github.com/timoehler"
