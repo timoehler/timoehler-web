@@ -186,9 +186,9 @@ export default {
 
 .subtitle {
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #fff;
-  word-spacing: 5px;
+  word-spacing: 1px;
   margin: 20px 0 0 0;
 }
 
@@ -203,6 +203,7 @@ export default {
 .tech-description {
   padding-top: 15px;
   padding-bottom: 15px;
+  text-align: left;
 }
 
 .contact__container {
