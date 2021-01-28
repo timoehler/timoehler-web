@@ -28,31 +28,15 @@ html {
 .btn-primary {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #dc4933;
-  background-color: #dc4933;
+  border: 1px solid #2573ad;
+  background-color: #4593cd;
   color: #fff;
   text-decoration: none;
-  padding: 10px 30px;
+  padding: 5px 30px;
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #c52913;
-}
-
-.btn-secondary {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #0c7c59;
-  background-color: transparent;
-  color: #0c7c59;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.btn-secondary:hover {
-  color: #fff;
-  background-color: #0c7c59;
-  text-decoration: underline;
+  background-color: #55a3dd;
+  border: 1px solid #55a3dd;
 }
 </style>
