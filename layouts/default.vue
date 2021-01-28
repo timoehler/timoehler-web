@@ -28,7 +28,7 @@ html {
 .btn-primary {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #2573ad;
+  border: 1px solid #4593cd;
   background-color: #4593cd;
   color: #fff;
   text-decoration: none;
