@@ -4,7 +4,7 @@
     <main id="page-wrap">
       <div class="above-fold-container">
         <section class="container flex">
-          <img class="hero-image" src="../assets/me-tall.png" />
+          <img class="hero-image" src="../assets/myAvatar.png" />
           <div class="welcome-header">
             <div class="title-container">
               <h1 class="title">Hi, I&#39;m Tim.</h1>
